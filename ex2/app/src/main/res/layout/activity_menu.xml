@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/spongebob_background"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <Button
+            android:id="@+id/sensor_BTN_ModeSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor slow" />
+
+        <Button
+            android:id="@+id/sensor_BTN_ModeFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sensor fast" />
+
+        <Button
+            android:id="@+id/normal_BTN_ModeSlow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal slow" />
+
+        <Button
+            android:id="@+id/normal_BTN_ModeFast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Normal fast" />
+        <Button
+            android:id="@+id/scoreListBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top 10 scores" />
+    </LinearLayout>
+</RelativeLayout>

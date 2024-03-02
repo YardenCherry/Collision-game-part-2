@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.MainActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/main_layout_gameLayout"
+        android:background="@drawable/spongebob_background"
+        android:layout_width="match_parent"
+        android:layout_height="660dp">
+
+        <!---left route /-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image00"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image10"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image20"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image30"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image40"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image50"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image60"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/mrkrab"
+                android:visibility="invisible"
+                />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!---center route /-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image01"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image11"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image21"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image31"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image41"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image51"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image61"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/mrkrab"
+                android:visibility="invisible"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <!---right route /-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image02"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image12"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image22"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image32"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image42"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image52"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image62"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/mrkrab"
+                android:visibility="visible"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image03"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image13"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image23"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image33"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image43"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image53"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image63"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/mrkrab"
+                android:visibility="invisible"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image04"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image14"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image24"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image34"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image44"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image54"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/plankton"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/main_IMG_image64"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/mrkrab"
+                android:visibility="invisible"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_layout_gameLayout">
+
+        <ImageButton
+            android:id="@+id/main_IMGBTN_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/leftarrow" />
+
+        <ImageButton
+            android:id="@+id/main_IMGBTN_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            app:srcCompat="@drawable/rightarrow" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/main_IMG_heart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/heart" />
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/main_LBL_score"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        tools:text="000"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
