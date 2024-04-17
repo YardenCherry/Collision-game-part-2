@@ -3,6 +3,13 @@
 This project developed as part of the mobile application course in the software engineering degree.
 Spongebob Game is an entertaining Android game where the player controls mr krab that is trying to escape from plankton. 
 
+# Features
+- sensors
+- Maps
+- Fragments
+- Sounds
+  
+
 # Logo
 ![Screenshot_20240302_220848](https://github.com/YardenCherry/Collision-game-part-2/assets/155112044/a88388d1-845e-4241-819c-3566a8ffe513) 
 
